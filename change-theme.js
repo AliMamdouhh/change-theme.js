@@ -1,4 +1,4 @@
-<script>
+
   function changeTheme() {
     const themeInput = document.getElementById("searchIn");
     let themeValue = themeInput.value.trim();
@@ -88,4 +88,4 @@
   document.getElementById("searchIn").addEventListener("input", function () {
     changeTheme();
   });
-</script>
+
