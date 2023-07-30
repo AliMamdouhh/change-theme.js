@@ -12,7 +12,7 @@
       t7: "theme7",
       t8: "theme8",
       t9: "theme9",
-      t10: "theme10"
+      t0: "theme10"
     };
 
     const themeNames = {
@@ -67,6 +67,9 @@
 
       // Save the selected theme to Local Storage
       localStorage.setItem("selectedTheme", themeValue);
+
+      // Clear the input value
+      themeInput.value = "";
     }
   }
 
@@ -88,4 +91,3 @@
   document.getElementById("searchIn").addEventListener("input", function () {
     changeTheme();
   });
-
